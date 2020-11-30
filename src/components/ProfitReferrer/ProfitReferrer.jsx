@@ -1,0 +1,76 @@
+import React from 'react';
+import './ProfitReferrer.scss';
+
+export const ProfitReferrer = () => (
+  <div className="referrer">
+    <table>
+      <thead>
+        <tr>
+          <td>REFERRER</td>
+          <td>Views</td>
+          <td>Sales</td>
+          <td>Conversion</td>
+          <td>Total</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>note.com</td>
+          <td>54</td>
+          <td>12</td>
+          <td>10.5%</td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Direct, email, IM</td>
+          <td>96</td>
+          <td>24</td>
+          <td>25%</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Recommended</td>
+          <td>kdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+        </tr>
+        <tr>
+          <td>Dribbblev</td>
+          <td>kdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+        </tr>
+        <tr>
+          <td>google.co.uk</td>
+          <td>kdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+        </tr>
+        <tr>
+          <td>google.com.tr</td>
+          <td>kdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+        </tr>
+        <tr>
+          <td>mail.google.com</td>
+          <td>kdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+        </tr>
+        <tr>
+          <td>facebook.com</td>
+          <td>kdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+          <td>dfdf</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+);

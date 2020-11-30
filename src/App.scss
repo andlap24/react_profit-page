@@ -1,8 +1,36 @@
-.nav {
-  display: flex;
-  margin: 20px;
+@import './styles/normilize.css';
 
-  * {
-    margin-right: 10px;
+@font-face {
+  font-family: "Source Sans Pro"; 
+  src: url("./fonts/SourceSansPro-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold"; 
+  src: url("./fonts/SourceSansPro-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Source Sans Pro, sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  background-color: #eff3f6;
+}
+
+.main {
+  display: flex;
+  padding: 30px;
+
+  &__summary {
+    display: flex;
+    flex-direction: column;
   }
 }

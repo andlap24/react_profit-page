@@ -1,0 +1,74 @@
+.menu {
+  width: 350px;
+  height: 100vh;
+
+  display: flex;
+
+  &__user-list {
+    background-color: #1d2531;
+    width: 100px;
+  }
+
+  &__nav {
+    background-color: #222c3c;
+    width: 250px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__item {
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin: 30px 0;
+
+    background-image: url(../../images/jordan-j.png);
+    background-size: cover;
+
+    cursor: pointer;
+  }
+
+  &__item:hover {
+    border-color: #2399f1;
+  }
+}
+
+.nav {
+  &__title {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 30px;
+    color: #5b6779;
+    font-weight: 600;
+    padding-left: 25px;
+  }
+
+  &__list {
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 600;
+    padding-left: 25px;
+
+    cursor: pointer;
+
+    &--active {
+      background-color: #313d4f;
+    }
+  }
+
+  &__link:hover {
+    background-color: #313d4f;
+  }
+}
