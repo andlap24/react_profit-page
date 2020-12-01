@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react__profit-page/static/css/main.1c3e7deb.chunk.css",
-    "main.js": "/react__profit-page/static/js/main.48bdbd6e.chunk.js",
-    "main.js.map": "/react__profit-page/static/js/main.48bdbd6e.chunk.js.map",
-    "runtime-main.js": "/react__profit-page/static/js/runtime-main.f4db4e40.js",
-    "runtime-main.js.map": "/react__profit-page/static/js/runtime-main.f4db4e40.js.map",
-    "static/js/2.d120666b.chunk.js": "/react__profit-page/static/js/2.d120666b.chunk.js",
-    "static/js/2.d120666b.chunk.js.map": "/react__profit-page/static/js/2.d120666b.chunk.js.map",
-    "index.html": "/react__profit-page/index.html",
-    "static/css/main.1c3e7deb.chunk.css.map": "/react__profit-page/static/css/main.1c3e7deb.chunk.css.map",
-    "static/js/2.d120666b.chunk.js.LICENSE.txt": "/react__profit-page/static/js/2.d120666b.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/react__profit-page/static/media/SourceSansPro-Regular.73ae3a58.ttf",
-    "static/media/ProfitHeader.scss": "/react__profit-page/static/media/jordan-j.2ffadb0e.png",
-    "static/media/UserInfo.scss": "/react__profit-page/static/media/user-info-head.129e7cdb.png"
+    "main.css": "/react_profit-page/static/css/main.159dc6eb.chunk.css",
+    "main.js": "/react_profit-page/static/js/main.48bdbd6e.chunk.js",
+    "main.js.map": "/react_profit-page/static/js/main.48bdbd6e.chunk.js.map",
+    "runtime-main.js": "/react_profit-page/static/js/runtime-main.a94a57a6.js",
+    "runtime-main.js.map": "/react_profit-page/static/js/runtime-main.a94a57a6.js.map",
+    "static/js/2.d120666b.chunk.js": "/react_profit-page/static/js/2.d120666b.chunk.js",
+    "static/js/2.d120666b.chunk.js.map": "/react_profit-page/static/js/2.d120666b.chunk.js.map",
+    "index.html": "/react_profit-page/index.html",
+    "static/css/main.159dc6eb.chunk.css.map": "/react_profit-page/static/css/main.159dc6eb.chunk.css.map",
+    "static/js/2.d120666b.chunk.js.LICENSE.txt": "/react_profit-page/static/js/2.d120666b.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/react_profit-page/static/media/SourceSansPro-Regular.73ae3a58.ttf",
+    "static/media/ProfitHeader.scss": "/react_profit-page/static/media/jordan-j.2ffadb0e.png",
+    "static/media/UserInfo.scss": "/react_profit-page/static/media/user-info-head.129e7cdb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4db4e40.js",
+    "static/js/runtime-main.a94a57a6.js",
     "static/js/2.d120666b.chunk.js",
-    "static/css/main.1c3e7deb.chunk.css",
+    "static/css/main.159dc6eb.chunk.css",
     "static/js/main.48bdbd6e.chunk.js"
   ]
 }
