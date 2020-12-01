@@ -3,15 +3,13 @@
   height: 100vh;
 
   display: flex;
+  position: fixed;
+
+  z-index: 2;
 
   &__user-list {
     background-color: #1d2531;
     width: 100px;
-  }
-
-  &__nav {
-    background-color: #222c3c;
-    width: 250px;
   }
 }
 
@@ -20,6 +18,8 @@
   flex-direction: column;
   align-items: center;
 
+  color: white;
+
   &__item {
     width: 50px;
     height: 50px;
@@ -27,7 +27,7 @@
     border-radius: 50%;
     margin: 30px 0;
 
-    background-image: url(../../images/jordan-j.png);
+    background-image: url(../../images/users/jordan-j.png);
     background-size: cover;
 
     cursor: pointer;
@@ -39,6 +39,9 @@
 }
 
 .nav {
+  background-color: #222c3c;
+  width: 250px;
+
   &__title {
     text-transform: uppercase;
     font-size: 12px;
@@ -60,6 +63,7 @@
     line-height: 36px;
     font-weight: 600;
     padding-left: 25px;
+    color: white;
 
     cursor: pointer;
 

@@ -26,7 +26,7 @@
   },
   {
     "id": 2,
-    "name": "Jordan J.",
+    "name": "Jordan Jackson",
     "email": "jordan.jackson@dashboard.com",
     "mobile": "+44 (0) 7887 665 588",
     "level": "Senior (50K+)",
@@ -42,7 +42,7 @@
       "Dash",
       "Jessica"
     ],
-    "skills": [
+    "tags": [
       "photography",
       "teacher",
       "traveler",

@@ -16,10 +16,53 @@
   }
 
   &__info {
+    display: flex;
+  }
+}
+
+.info {
+  &__img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url(../../images/jordan-j.png);
+    background-image: url(../../images/users/jordan-j.png);
     background-size: cover;
+
+    transition: transform 0.3s;
+
+    cursor: pointer;
+  }
+
+  &__img:hover {
+    transform: scale(1.1);
+  }
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding-left: 10px;
+  padding-right: 70px;
+
+  &__name {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2399f1;
+  }
+
+  &__position {
+    color: #b5b5b5;
+  }
+
+  &__menu {
+    font-size: 12px;
+    line-height: 50px;
+    color: #b5b5b5;
+
+    transition: 0.3s;
+
+    cursor: pointer;
   }
 }

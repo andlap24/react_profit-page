@@ -10,21 +10,21 @@ import { UserInfo } from './components/UserInfo';
 import { ProfitEvents } from './components/ProfitEvents';
 
 export const App = () => (
-  <div className="wrapper">
-    <section className="menu">
+  <div className="App">
+    <section className="App__menu">
       <UserMenu />
     </section>
-    <section className="profit">
+    <section className="App__profit profit">
       <div className="profit__header">
         <ProfitHeader />
       </div>
       <div className="profit__main main">
-        <div className="info__summary">
+        <div className="main__summary">
           <ProfitHistory />
           <ProfitStats />
           <ProfitReferrer />
         </div>
-        <div className="info__user">
+        <div className="main__user">
           <UserInfo />
           <ProfitEvents />
         </div>

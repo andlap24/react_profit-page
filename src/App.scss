@@ -17,20 +17,35 @@
 * {
   box-sizing: border-box;
   font-family: Source Sans Pro, sans-serif;
+  color: #354052;
   margin: 0;
 }
 
-.wrapper {
+.App {
   display: flex;
   background-color: #eff3f6;
+
+  &__menu {
+    width: 350px;
+    height: 100vh;
+    z-index: 1;
+  }
 }
 
 .main {
   display: flex;
-  padding: 30px;
+  padding: 30px 30px;
+  gap: 20px;
 
   &__summary {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }

@@ -3,72 +3,72 @@ import './ProfitReferrer.scss';
 
 export const ProfitReferrer = () => (
   <div className="referrer">
-    <table>
-      <thead>
+    <table className="referrer__table table">
+      <thead className="table__thead">
         <tr>
-          <td>REFERRER</td>
-          <td>Views</td>
-          <td>Sales</td>
-          <td>Conversion</td>
-          <td>Total</td>
+          <th>REFERRER</th>
+          <th>Views</th>
+          <th>Sales</th>
+          <th>Conversion</th>
+          <th>Total</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody className="table__tbody">
         <tr>
-          <td>note.com</td>
+          <th>note.com</th>
           <td>54</td>
           <td>12</td>
           <td>10.5%</td>
           <td>$50</td>
         </tr>
         <tr>
-          <td>Direct, email, IM</td>
+          <th>Direct, email, IM</th>
           <td>96</td>
           <td>24</td>
           <td>25%</td>
           <td>$10</td>
         </tr>
         <tr>
-          <td>Recommended</td>
-          <td>kdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
+          <th>Recommended</th>
+          <td>5</td>
+          <td>5</td>
+          <td>100%</td>
+          <td>$10</td>
         </tr>
         <tr>
-          <td>Dribbblev</td>
-          <td>kdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
+          <th>Dribbble</th>
+          <td>1</td>
+          <td>0</td>
+          <td>0.0%</td>
+          <td>$0</td>
         </tr>
         <tr>
-          <td>google.co.uk</td>
-          <td>kdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
+          <th>google.co.uk</th>
+          <td>5</td>
+          <td>0</td>
+          <td>0.0%</td>
+          <td>0</td>
         </tr>
         <tr>
-          <td>google.com.tr</td>
-          <td>kdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
+          <th>google.com.tr</th>
+          <td>0</td>
+          <td>0</td>
+          <td>0.0%</td>
+          <td>0</td>
         </tr>
         <tr>
-          <td>mail.google.com</td>
-          <td>kdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
+          <th>mail.google.com</th>
+          <td>1</td>
+          <td>0</td>
+          <td>0.0%</td>
+          <td>0</td>
         </tr>
         <tr>
-          <td>facebook.com</td>
-          <td>kdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
-          <td>dfdf</td>
+          <th>facebook.com</th>
+          <td>5</td>
+          <td>0</td>
+          <td>0.0%</td>
+          <td>0</td>
         </tr>
       </tbody>
     </table>

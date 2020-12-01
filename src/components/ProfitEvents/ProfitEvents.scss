@@ -1,8 +1,57 @@
 .events {
-  /* width: 370px;
-  height: 178px; */
+  width: 370px;
+
   display: inline-block;
   border-radius: 4px;
   background-color: #ffffff;
   border: 1px solid #e6eaee;
+
+  padding: 30px;
+
+  &__topic {
+    font-size: 12px;
+    font-weight: 400;
+    color: #818ea7;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: initial;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    & > :first-child {
+      font-size: 16px;
+      font-weight: 600;
+      color: #56688a;
+    }
+  }
+
+  &__category {
+    height: 18px;
+    border-radius: 3px;
+
+    font-size: 10px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: white;
+
+    padding: 0 5px;
+
+    transition: transform 0.3s;
+
+    &--dark-blue {
+      background-color: #0474c8;
+    }
+
+    &--turquoise {
+      background-color: #37acc1;
+    }
+  }
+
+  &__date {
+    color: #56688a;
+  }
 }
