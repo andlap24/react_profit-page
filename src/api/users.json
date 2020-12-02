@@ -131,43 +131,49 @@
   {
     "id": 6,
     "name": "Caroline",
-    "position": "Front-end developer",
-    "profileImage": "./image/friends/caroline.svg",
-    "loggedIn": false
+    "position": "CEO",
+    "profileImage": "../../images/users/friends/caroline.png",
+    "loggedIn": false,
+    "connect": 2
   },
   {
     "id": 7,
     "name": "Claire",
     "position": "Designer",
-    "profileImage": "./image/friends/claire.svg",
-    "loggedIn": false
+    "profileImage": "../../images/users/friends/claire.png",
+    "loggedIn": false,
+    "connect": 2
   },
   {
     "id": 8,
     "name": "Lina",
     "position": "Sales Manager",
-    "profileImage": "./image/friends/lina.svg",
-    "loggedIn": false
+    "profileImage": "../../images/users/friends/lina.png",
+    "loggedIn": false,
+    "connect": 2
   },
   {
     "id": 9,
     "name": "Jason",
     "position": "CTO",
-    "profileImage": "./image/friends/jason.svg",
-    "loggedIn": false
+    "profileImage": "../../images/users/friends/jason.png",
+    "loggedIn": false,
+    "connect": 2
   },
   {
     "id": 10,
     "name": "Dash",
     "position": "Design Lead",
-    "profileImage": "./image/friends/dash.svg",
-    "loggedIn": false
+    "profileImage": "../../images/users/friends/dash.png",
+    "loggedIn": false,
+    "connect": 2
   },
   {
     "id": 11,
     "name": "Jessica",
     "position": "Designer",
-    "profileImage": "./image/friends/jessica.svg",
-    "loggedIn": false
+    "profileImage": "../../images/users/friends/jessica.png",
+    "loggedIn": false,
+    "connect": 2
   }
 ]

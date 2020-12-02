@@ -5,8 +5,6 @@
   display: flex;
   position: fixed;
 
-  z-index: 2;
-
   &__user-list {
     background-color: #1d2531;
     width: 100px;
@@ -20,59 +18,42 @@
 
   color: white;
 
-  &__item {
+  &__img {
     width: 50px;
     height: 50px;
-    border: 2px solid transparent;
     border-radius: 50%;
     margin: 30px 0;
 
-    background-image: url(../../images/users/jordan-j.png);
-    background-size: cover;
-
     cursor: pointer;
   }
 
-  &__item:hover {
-    border-color: #2399f1;
-  }
-}
-
-.nav {
-  background-color: #222c3c;
-  width: 250px;
-
-  &__title {
-    text-transform: uppercase;
-    font-size: 12px;
-    padding-top: 30px;
-    color: #5b6779;
-    font-weight: 600;
-    padding-left: 25px;
-  }
-
-  &__list {
-    list-style: none;
-    color: white;
+  &__item {
     padding: 0;
-    margin: 0;
+    border: none;
+    outline: none;
+    background: none;
+    filter: brightness(50%);
   }
 
-  &__link {
-    font-size: 14px;
-    line-height: 36px;
-    font-weight: 600;
-    padding-left: 25px;
-    color: white;
+  &__item:hover::before,
+  &__item:focus::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
 
-    cursor: pointer;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 10px 1px #2399F1;
 
-    &--active {
-      background-color: #313d4f;
-    }
+    box-shadow: 0px 0px 10px 1px #2399F1;
+    background-color: #2399f1;
+
+    left: -55%;
+    top: 50%;
   }
 
-  &__link:hover {
-    background-color: #313d4f;
+  &__item:hover,
+  &__item:focus {
+    filter: brightness(100%);
   }
 }

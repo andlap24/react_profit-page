@@ -1,8 +1,8 @@
 import React from 'react';
 import './UserInfo.scss';
 
-import ProfileAvatar from '../../images/users/jordan-j.png';
-import EditIcon from '../../images/pencil-icon.png';
+import ProfileAvatar from '../../images/users/user2.png';
+import EditIcon from '../../images/icons/edit-icon.svg';
 
 import users from '../../api/users.json';
 
@@ -15,13 +15,11 @@ export const UserInfo = () => (
             <img className="profile__img" src={ProfileAvatar} alt="" />
             <h3 className="profile__name">{user.name}</h3>
             <p className="profile__status">{user.position}</p>
-            <div className="profile__icon">
-              <img
-                className="profile__icon-pencil"
-                src={EditIcon}
-                alt="edit user icon"
-              />
-            </div>
+            <img
+              className="profile__edit-icon"
+              src={EditIcon}
+              alt="edit user icon"
+            />
           </div>
 
           <div className="profile__info">
