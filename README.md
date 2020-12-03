@@ -1,11 +1,20 @@
-# React Starter Pack
+# Profit Page
 
-To use this template click `Use this template`
+## Description
+- [DEMO LINK](https://andlap24.github.io/react_profit-page)
 
-### Available Scripts
+Stack: React, HTML5, SASS(SCSS).
 
-`Deploy` - available to deploy your application to gh-pages
+### Dependencies
+* Node v14.15.1 and higher
+* NPM v7.0.15 and higher
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+### Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
 
-`React router` - available to use dynamic routes to switch between pages
+## Troubleshooting
+
+Any advise for common problems or issues.
+For any contributing or problem solving you could find me [here](mailto:andrew.laptev24@gmail.com).

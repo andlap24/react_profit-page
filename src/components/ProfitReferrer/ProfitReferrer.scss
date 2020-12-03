@@ -1,0 +1,39 @@
+table {
+  width: 770px;
+  height: 344px;
+
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #e6eaee;
+
+  font-size: 14px;
+  text-align: center;
+
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: 600;
+  line-height: 60px;
+  color: #7f8fa4;
+}
+
+thead th:first-child {
+  text-align: left;
+  padding-left: 30px;
+  color: #354052;
+}
+
+tbody th {
+  padding-left: 30px;
+  line-height: 35px;
+}
+
+tbody th:first-child {
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f8fa;
+}

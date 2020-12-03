@@ -1,8 +1,77 @@
-.nav {
-  display: flex;
-  margin: 20px;
+@import './styles/normilize.css';
+@import './styles/vars';
 
-  * {
-    margin-right: 10px;
+@font-face {
+  font-family: "Source Sans Pro"; 
+  src: url("./fonts/SourceSansPro-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold"; 
+  src: url("./fonts/SourceSansPro-Bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Source Sans Pro, sans-serif;
+  color: $textColorDark;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  background-color: $backgroundPage;
+  width: 100%;
+
+  &__menu {
+    width: 100px;
+    height: 100vh;
+    z-index: 1;
+  }
+}
+
+.profit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 30px 30px;
+  gap: 20px;
+
+  &__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__user {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .profit {
+    max-width: 1310px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .profit {
+    max-width: 450px;
   }
 }

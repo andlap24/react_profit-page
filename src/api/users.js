@@ -1,0 +1,201 @@
+/* eslint-disable max-len */
+import user1 from '../images/users/user1.png';
+import user2 from '../images/users/user2.png';
+import user3 from '../images/users/user3.png';
+import user4 from '../images/users/user4.png';
+import user5 from '../images/users/user5.png';
+
+import friendCaroline from '../images/users/friends/caroline.png';
+import friendClaire from '../images/users/friends/claire.png';
+import friendLina from '../images/users/friends/lina.png';
+import friendJason from '../images/users/friends/jason.png';
+import friendDash from '../images/users/friends/dash.png';
+import friendJessica from '../images/users/friends/jessica.png';
+
+const users = [
+  {
+    id: 1,
+    name: 'Andrew L.',
+    email: 'andrew.laptev24@gmail.com',
+    mobile: '+44 (0) 7887 665 588',
+    level: 'Senior (50K+)',
+    position: 'Front-end Developer',
+    bio: 'Andrew graduated from Ukrainian Academy of Printing in 2015 with a Masters degree in computer science and a specialization in mathematics. While there, he published two articles on Code-project.',
+    profileImage: user1,
+    loggedIn: true,
+    friends: [
+      'Caroline',
+      'Claire',
+      'Lina',
+      'Jason',
+      'Dash',
+      'Jessica',
+    ],
+    skills: [
+      'photography',
+      'teacher',
+      'traveler',
+      'ios',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Jordan Jackson',
+    email: 'jordan.jackson@dashboard.com',
+    mobile: '+44 (0) 7887 665 588',
+    level: 'Senior (50K+)',
+    position: 'Beta Tester | Ultimate User',
+    bio: 'Jordan graduated from Cornell University in 2004 with a Bachelor degree in computer science and a specialization in mathematics. While there, he published two articles on Code-project.',
+    profileImage: user2,
+    loggedIn: true,
+    friends: [
+      'Caroline',
+      'Claire',
+      'Lina',
+      'Jason',
+      'Dash',
+      'Jessica',
+    ],
+    tags: [
+      'photography',
+      'teacher',
+      'traveler',
+      'ios',
+    ],
+    newOrders: '3,594',
+    totalSales: '105,990',
+    totalPaidOut: '$50,890',
+    newCustomers: '453',
+  },
+  {
+    id: 3,
+    name: 'Emma W.',
+    email: 'emma.whatson@dashboard.com',
+    mobile: '+44 (0) 7887 665 588',
+    level: 'Senior (50K+)',
+    position: 'Project Manager',
+    bio: 'Emma graduated from Cornell University in 2009 with a Masters degree in computer science and a specialization in mathematics. While there, he published two articles on Code-project.',
+    profileImage: user3,
+    friends: [
+      'Caroline',
+      'Claire',
+      'Lina',
+      'Jason',
+      'Dash',
+      'Jessica',
+    ],
+    skills: [
+      'photography',
+      'teacher',
+      'traveler',
+      'ios',
+    ],
+    loggedIn: true,
+  },
+  {
+    id: 4,
+    name: 'Elizabeth S.',
+    email: 'elisabeth.sanders@dashboard.com',
+    mobile: '+44 (0) 7887 665 588',
+    level: 'Senior (50K+)',
+    position: 'Front-end Developer',
+    bio: 'Elizabeth graduated from New York University in 2015 with a Masters degree in computer science and a specialization in mathematics. While there, he published two articles on Code-project.',
+    profileImage: user4,
+    friends: [
+      'Caroline',
+      'Claire',
+      'Lina',
+      'Jason',
+      'Dash',
+      'Jessica',
+    ],
+    skills: [
+      'photography',
+      'teacher',
+      'traveler',
+      'ios',
+    ],
+    loggedIn: true,
+  },
+  {
+    id: 5,
+    name: 'Lyla M.',
+    email: 'lyla.moss@dashboard.com',
+    mobile: '+44 (0) 7887 665 588',
+    level: 'Senior (50K+)',
+    position: 'Office manager',
+    bio: 'Lyla graduated from Cornell University in 2008 with a Masters degree in computer science and a specialization in mathematics. While there, he published two articles on Code-project.',
+    profileImage: user5,
+    friends: [
+      'Caroline',
+      'Claire',
+      'Lina',
+      'Jason',
+      'Dash',
+      'Jessica',
+    ],
+    skills: [
+      'photography',
+      'teacher',
+      'traveler',
+      'ios',
+    ],
+    loggedIn: true,
+  },
+  {
+    id: 6,
+    name: 'Caroline',
+    position: 'Typing..',
+    profileImage: friendCaroline,
+    loggedIn: false,
+    status: 'online',
+    connect: 2,
+  },
+  {
+    id: 7,
+    name: 'Claire',
+    position: 'Designer',
+    profileImage: friendClaire,
+    loggedIn: false,
+    status: 'online',
+    connect: 2,
+  },
+  {
+    id: 8,
+    name: 'Lina',
+    position: 'Sales Manager',
+    profileImage: friendLina,
+    loggedIn: false,
+    status: 'offline',
+    connect: 2,
+  },
+  {
+    id: 9,
+    name: 'Jason',
+    position: 'CTO',
+    profileImage: friendJason,
+    loggedIn: false,
+    status: 'online',
+    connect: 2,
+  },
+  {
+    id: 10,
+    name: 'Dash',
+    position: 'Design Lead',
+    profileImage: friendDash,
+    loggedIn: false,
+    status: 'offline',
+    connect: 2,
+  },
+  {
+    id: 11,
+    name: 'Jessica',
+    position: 'Designer',
+    profileImage: friendJessica,
+    loggedIn: false,
+    status: 'online',
+    connect: 2,
+  },
+];
+
+export default users;
