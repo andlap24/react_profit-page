@@ -1,4 +1,5 @@
 @import './styles/normilize.css';
+@import './styles/vars';
 
 @font-face {
   font-family: "Source Sans Pro"; 
@@ -17,26 +18,34 @@
 * {
   box-sizing: border-box;
   font-family: Source Sans Pro, sans-serif;
-  color: #354052;
+  color: $textColorDark;
   margin: 0;
 }
 
 .App {
   display: flex;
-  background-color: #eff3f6;
+  background-color: $backgroundPage;
+  width: 100%;
 
   &__menu {
-    width: 350px;
+    width: 100px;
     height: 100vh;
     z-index: 1;
   }
 }
 
+.profit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .main {
   display: flex;
+  justify-content: center;
   padding: 30px 30px;
   gap: 20px;
-  justify-content: center;
 
   &__summary {
     display: flex;
@@ -48,5 +57,21 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .profit {
+    max-width: 1310px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .profit {
+    max-width: 450px;
   }
 }

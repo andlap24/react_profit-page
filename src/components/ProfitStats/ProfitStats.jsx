@@ -1,13 +1,13 @@
 import React from 'react';
 import './ProfitStats.scss';
 
-import users from '../../api/users.json';
+import users from '../../api/users';
 
 export const ProfitStats = () => (
   users.map(user => (
     user.id === 2
       ? (
-        <div className="stats">
+        <div className="stats" key={user.id}>
           <div className="stats__stat stat">
             <div className="stat__head">
               <h3 className="stat__sum">{user.newOrders}</h3>

@@ -1,12 +1,19 @@
+@import '../../styles/vars';
+
 .menu {
-  width: 350px;
   height: 100vh;
+  background-color: $backgroundUserList;
 
   display: flex;
   position: fixed;
 
+  &__primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   &__user-list {
-    background-color: #1d2531;
     width: 100px;
   }
 }
@@ -16,7 +23,7 @@
   flex-direction: column;
   align-items: center;
 
-  color: white;
+  color: $textColorWhite;
 
   &__img {
     width: 50px;
@@ -43,10 +50,10 @@
     height: 4px;
 
     border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 10px 1px #2399F1;
+    -webkit-box-shadow: 0px 0px 10px 1px $notificationColor;
 
-    box-shadow: 0px 0px 10px 1px #2399F1;
-    background-color: #2399f1;
+    box-shadow: 0px 0px 10px 1px $notificationColor;
+    background-color: $notificationColor;
 
     left: -55%;
     top: 50%;
@@ -55,5 +62,25 @@
   &__item:hover,
   &__item:focus {
     filter: brightness(100%);
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+
+  &__grid,
+  &__settings {
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  &__grid:hover,
+  &__settings:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px $notificationColor, 0 0 15px $notificationColor;
   }
 }

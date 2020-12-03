@@ -4,13 +4,13 @@ import './UserInfo.scss';
 import ProfileAvatar from '../../images/users/user2.png';
 import EditIcon from '../../images/icons/edit-icon.svg';
 
-import users from '../../api/users.json';
+import users from '../../api/users';
 
 export const UserInfo = () => (
   users.map(user => (
     user.id === 2
       ? (
-        <div className="profile">
+        <div className="profile" key={user.id}>
           <div className="profile__header">
             <img className="profile__img" src={ProfileAvatar} alt="" />
             <h3 className="profile__name">{user.name}</h3>
@@ -58,7 +58,7 @@ export const UserInfo = () => (
               <h4>Skills</h4>
               <div className="profile__tags tags">
                 {user.tags.map(tag => (
-                  <div className="tags__tag">{tag}</div>
+                  <div className="tags__tag" key={tag}>{tag}</div>
                 ))}
               </div>
             </div>

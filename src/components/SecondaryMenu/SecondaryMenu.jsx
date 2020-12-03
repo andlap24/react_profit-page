@@ -8,11 +8,20 @@ import settingsIcon from '../../images/icons/settings-icon.svg';
 import activeIcon from '../../images/icons/active-circle-icon.svg';
 import awayIcon from '../../images/icons/away-circle-icon.svg';
 
-export const SecondaryMenu = ({ selectedId }) => (
-  <div className="menu__secondary">
+export const SecondaryMenu = ({ selectedId, closeSecondaryMenu }) => (
+  <div className="menu__secondary fadeIn">
     <div className="menu__nav nav">
       <div>
-        <p className="nav__title">menu</p>
+        <div className="nav__top">
+          <p className="nav__top-title">menu</p>
+          <button
+            type="button"
+            className="nav__top-button"
+            onClick={() => closeSecondaryMenu()}
+          >
+            &times;
+          </button>
+        </div>
         <ul className="nav__list">
           <li className="nav__link nav__link--active">Profit</li>
           <li className="nav__link">Explore</li>
@@ -46,13 +55,17 @@ export const SecondaryMenu = ({ selectedId }) => (
     <div className="menu__chat chat">
       <div className="chat__top">
         <p>friends</p>
-        <img src={settingsIcon} alt="" />
+        <img
+          src={settingsIcon}
+          alt=""
+          className="chat__top-btn"
+        />
       </div>
       <div className="chat__friends">
         {users.map(user => (
           user.connect === selectedId
             ? (
-              <div className="chat__friend">
+              <div className="chat__friend" key={user.id}>
                 <div className="chat__friend-img">
                   <img
                     src={user.profileImage}
@@ -97,4 +110,5 @@ export const SecondaryMenu = ({ selectedId }) => (
 
 SecondaryMenu.propTypes = {
   selectedId: PropTypes.number.isRequired,
+  closeSecondaryMenu: PropTypes.func.isRequired,
 };
